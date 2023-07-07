@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/14/545x440wwm/148700_545x440wwm_8a109af6-afc0-da6d-0fc0-e0bf9e75cbd7.png",
+      "name": "Сир «Звени Гора»",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "200g",
+      "comments": [
+        "CommentModel",
+        "CommentModel"
+      ]
+    },
+    {
+      "id": 0.968044808018591,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/68/545x440wwm/687057_545x440wwm_ae1df734-9e75-1197-f9eb-58b4781793a8.png",
+      "name": "Шоколад молочний Roshen з чорничною нугою ",
+      "count": 20,
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "weight": 160,
+      "comments": []
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/87/545x440wwm/878524_545x440wwm_4e0103b8-6bfa-b7f7-2763-5afb44b77400.png",
+      "name": "Туалетний папір Zewa Baby Moist вологий",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "200g",
+      "comments": [
+        "CommentModel",
+        "CommentModel"
+      ]
+    },
+    {
+      "id": 0.968044808018591,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/88/545x440wwm/880625_545x440wwm_f43c1ab2-871a-ecd8-63cf-6409c5fb947a.png",
+      "name": "Маска Mond'Sub «Зволоження і живлення» з вітаміном B тканинна",
+      "count": 20,
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "weight": 160,
+      "comments": []
+    }
+  ]
+}

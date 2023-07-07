@@ -1,0 +1,40 @@
+.form{
+
+  margin-top: 30px;
+
+  &__block {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  &__legend {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  &__input {
+  }
+
+  &__add-btn {
+    margin-bottom: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    border: none;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #00ff04;
+    cursor: pointer;
+
+    width: 100%;
+  }
+}

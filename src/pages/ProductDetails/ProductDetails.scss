@@ -1,0 +1,38 @@
+.product-details {
+  display: flex;
+
+  &__logo {
+    height: 350px;
+    width: 350px;
+    margin-right: 150px;
+  }
+
+  &__name {
+    color: black;
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__content-item {
+    color: black;
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
