@@ -1,21 +1,6 @@
 {
   "products": [
     {
-      "id": 2,
-      "imageUrl": "https://content.silpo.ua/sku/ecommerce/14/545x440wwm/148700_545x440wwm_8a109af6-afc0-da6d-0fc0-e0bf9e75cbd7.png",
-      "name": "Сир «Звени Гора»",
-      "count": 4,
-      "size": {
-        "width": 200,
-        "height": 200
-      },
-      "weight": "200g",
-      "comments": [
-        "CommentModel",
-        "CommentModel"
-      ]
-    },
-    {
       "id": 0.968044808018591,
       "imageUrl": "https://content.silpo.ua/sku/ecommerce/68/545x440wwm/687057_545x440wwm_ae1df734-9e75-1197-f9eb-58b4781793a8.png",
       "name": "Шоколад молочний Roshen з чорничною нугою ",
@@ -52,6 +37,18 @@
         "height": 150
       },
       "weight": 160,
+      "comments": []
+    },
+    {
+      "id": 0.2661398926546641,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/89/545x440wwm/893843_545x440wwm_3c645493-1c27-2f66-d49a-7db998b0671c.png",
+      "name": "Печиво «Житомирські ласощі» «Сакура»",
+      "count": 15,
+      "size": {
+        "width": 15,
+        "height": 15
+      },
+      "weight": 15,
       "comments": []
     }
   ]

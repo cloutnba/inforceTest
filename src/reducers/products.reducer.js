@@ -4,7 +4,7 @@ import axios from "axios";
 const initialState = {
     allProducts: [],
     currentDeleteProductId: null,
-    actionCurrentDetailsProduct: null,
+    actionCurrentDetailsProduct: {},
 }
 
 
@@ -16,7 +16,7 @@ const productsSlice = createSlice({
             state.allProducts = [...payload];
         },
         actionCurrentDetailsProduct: (state, {payload}) => {
-            state.actionCurrentDetailsProduct = payload;
+            state.actionCurrentDetailsProduct = {...payload};
         },
         actionAddNewProduct: (state, {payload}) => {
             state.allProducts = [...state.allProducts, payload];

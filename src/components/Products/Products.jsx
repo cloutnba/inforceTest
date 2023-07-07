@@ -16,11 +16,12 @@ const Products = () => {
     const products = useSelector(selectorAllProducts);
     const currentDeleteId = useSelector(selectorCurrentDeleteProductId);
 
+
     const dispatch = useDispatch();
 
     useEffect(() => {
         dispatch(actionFetchAllProducts('http://localhost:4000/products'));
-    }, [products])
+    }, [currentDeleteId, isAddItemModal])
 
 
     const onClickHand = () => {

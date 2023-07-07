@@ -1,21 +1,20 @@
 import './ProductDetails.scss';
 import {useDispatch, useSelector} from "react-redux";
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
-import {actionCurrentDetailsProduct, actionFetchOneProduct} from "../../reducers/products.reducer";
+import {actionFetchOneProduct} from "../../reducers/products.reducer";
 import {selectorCurrentDetailsProduct} from "../../selectors";
-import axios from 'axios';
+
 
 const ProductDetails = () => {
     let {id} = useParams();
     const dispatch = useDispatch();
 
-    const productDetails = useSelector(selectorCurrentDetailsProduct);
     useEffect(() => {
         dispatch(actionFetchOneProduct(`http://localhost:4000/products/${id}`));
-
     }, [id]);
 
+    const productDetails = useSelector(selectorCurrentDetailsProduct);
     const {imageUrl, name, count, size, weight} = productDetails;
 
     return (
