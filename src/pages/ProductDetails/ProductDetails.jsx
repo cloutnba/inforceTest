@@ -15,7 +15,7 @@ const ProductDetails = () => {
     }, [id]);
 
     const productDetails = useSelector(selectorCurrentDetailsProduct);
-    const {imageUrl, name, count, size, weight} = productDetails;
+    const {imageUrl, name, count, weight} = productDetails;
 
     return (
         <>
@@ -25,7 +25,6 @@ const ProductDetails = () => {
                 <div className="product-details__content">
                     <h3 className="product-details__name">{name}</h3>
                     <p className="product-details__content-item">Count : {count}</p>
-                    <p className="product-details__content-item">Size : {size.width} x {size.height} </p>
                     <p className="product-details__content-item">Weight : {weight}</p>
                 </div>
 
