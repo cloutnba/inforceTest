@@ -39,7 +39,7 @@ const AddModal = ({handleAddItemModal}) => {
                 })}
                 onSubmit={(values) => {
                     dispatch(actionFetchAddNewProduct("http://localhost:4000/products", {
-                        id: Math.random(),
+                        id: Math.round(Math.random() * 10001),
                         imageUrl: values.imageUrl,
                         name: values.name,
                         count: values.count,

@@ -1,18 +1,6 @@
 {
   "products": [
     {
-      "id": 0.968044808018591,
-      "imageUrl": "https://content.silpo.ua/sku/ecommerce/68/545x440wwm/687057_545x440wwm_ae1df734-9e75-1197-f9eb-58b4781793a8.png",
-      "name": "Шоколад молочний Roshen з чорничною нугою ",
-      "count": 20,
-      "size": {
-        "width": 20,
-        "height": 150
-      },
-      "weight": 160,
-      "comments": []
-    },
-    {
       "id": 2,
       "imageUrl": "https://content.silpo.ua/sku/ecommerce/87/545x440wwm/878524_545x440wwm_4e0103b8-6bfa-b7f7-2763-5afb44b77400.png",
       "name": "Туалетний папір Zewa Baby Moist вологий",
@@ -28,21 +16,57 @@
       ]
     },
     {
-      "id": 0.968044808018591,
-      "imageUrl": "https://content.silpo.ua/sku/ecommerce/88/545x440wwm/880625_545x440wwm_f43c1ab2-871a-ecd8-63cf-6409c5fb947a.png",
-      "name": "Маска Mond'Sub «Зволоження і живлення» з вітаміном B тканинна",
-      "count": 20,
+      "id": 15,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/89/545x440wwm/893843_545x440wwm_3c645493-1c27-2f66-d49a-7db998b0671c.png",
+      "name": "Печиво «Житомирські ласощі» «Сакура»",
+      "count": 15,
       "size": {
-        "width": 20,
-        "height": 150
+        "width": 15,
+        "height": 15
       },
-      "weight": 160,
+      "weight": 15,
       "comments": []
     },
     {
-      "id": 0.2661398926546641,
-      "imageUrl": "https://content.silpo.ua/sku/ecommerce/89/545x440wwm/893843_545x440wwm_3c645493-1c27-2f66-d49a-7db998b0671c.png",
-      "name": "Печиво «Житомирські ласощі» «Сакура»",
+      "id": 4,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/68/545x440wwm/687057_545x440wwm_ae1df734-9e75-1197-f9eb-58b4781793a8.png",
+      "name": "Шоколад молочний Roshen з чорничною нугою",
+      "count": 15,
+      "size": {
+        "width": 15,
+        "height": 15
+      },
+      "weight": 15,
+      "comments": []
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/5/545x440wwm/51604_545x440wwm_dfc560d9-dbd8-72b3-376a-623f722b132f.png",
+      "name": "Персики",
+      "count": 15,
+      "size": {
+        "width": 15,
+        "height": 15
+      },
+      "weight": 15,
+      "comments": []
+    },
+    {
+      "id": 8355,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/88/545x440wwm/887851_545x440wwm_7b4e1337-5c46-9891-c07e-d1f2351fe608.png",
+      "name": "Шоколад чорний «Світоч» Exclusive з малиною та кіноа",
+      "count": 15,
+      "size": {
+        "width": 15,
+        "height": 15
+      },
+      "weight": 15,
+      "comments": []
+    },
+    {
+      "id": 9493,
+      "imageUrl": "https://content.silpo.ua/sku/ecommerce/92/545x440wwm/922859_545x440wwm_f849b197-5821-63b9-3be6-17d644d8c0bf.png",
+      "name": "Торт Чизкейк ягідний",
       "count": 15,
       "size": {
         "width": 15,
